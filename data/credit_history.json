@@ -1,0 +1,74 @@
+{
+  "records": [
+    {
+      "applicant_id": "APP001",
+      "applicant_name": "Rahul Sharma",
+      "missed_payments": 0,
+      "defaults": 0,
+      "fraud_flag": false,
+      "overdue_accounts": 0,
+      "credit_score": 780,
+      "notes": "Pristine credit history. All past auto and personal loans paid on time."
+    },
+    {
+      "applicant_id": "APP002",
+      "applicant_name": "Priya Patel",
+      "missed_payments": 0,
+      "defaults": 0,
+      "fraud_flag": false,
+      "overdue_accounts": 0,
+      "credit_score": 745,
+      "notes": "Good repayment track record. Existing home loan active."
+    },
+    {
+      "applicant_id": "APP003",
+      "applicant_name": "Amit Kumar",
+      "missed_payments": 0,
+      "defaults": 0,
+      "fraud_flag": false,
+      "overdue_accounts": 0,
+      "credit_score": 710,
+      "notes": "Regular credit card user with no delinquencies."
+    },
+    {
+      "applicant_id": "APP004",
+      "applicant_name": "Vikram Singh",
+      "missed_payments": 4,
+      "defaults": 1,
+      "fraud_flag": false,
+      "overdue_accounts": 2,
+      "credit_score": 520,
+      "notes": "Serious default recorded on unsecured credit line in 2024. Active collection."
+    },
+    {
+      "applicant_id": "APP005",
+      "applicant_name": "Sneha Rao",
+      "missed_payments": 0,
+      "defaults": 0,
+      "fraud_flag": false,
+      "overdue_accounts": 0,
+      "credit_score": 765,
+      "notes": "Excellent credit profile. Low credit utilization."
+    },
+    {
+      "applicant_id": "APP006",
+      "applicant_name": "Deepak Verma",
+      "missed_payments": 0,
+      "defaults": 0,
+      "fraud_flag": true,
+      "overdue_accounts": 0,
+      "credit_score": 490,
+      "notes": "Confirmed identity theft/synthetic fraud alert flagged by risk committee."
+    },
+    {
+      "applicant_id": "APP007",
+      "applicant_name": "Ananya Sen",
+      "missed_payments": 2,
+      "defaults": 0,
+      "fraud_flag": false,
+      "overdue_accounts": 1,
+      "credit_score": 640,
+      "notes": "Minor late payments 30 days overdue on credit card account."
+    }
+  ]
+}
