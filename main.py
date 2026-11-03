@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Optional, List
 from contextlib import asynccontextmanager
 from fastapi import FastAPI, Depends, HTTPException, UploadFile, File, Form, Query, status
-from fastapi.responses import FileResponse
+from fastapi.responses import FileResponse, RedirectResponse
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy.orm import Session
 
@@ -53,6 +53,12 @@ app.add_middleware(
 )
 
 manager = UnderwritingManager()
+
+
+@app.get("/", include_in_schema=False)
+async def root():
+    """Redirect root route to the interactive presentation and overview."""
+    return RedirectResponse(url="/presentation")
 
 
 @app.get("/presentation", tags=["Presentation"])
